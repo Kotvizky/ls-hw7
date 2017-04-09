@@ -1,0 +1,15 @@
+{
+  "require": {
+    "twig/twig": "^2.2",
+	"google/recaptcha": "~1.1",
+    "phpmailer/phpmailer": "^5.2",
+    "intervention/image": "^2.3",
+    "illuminate/database": "^5.4",
+    "wixel/gump": "dev-master"
+  },
+  "autoload": {
+    "psr-4":{
+      "MyApp\\": "app/"
+    }
+    }
+}
